@@ -3,17 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Villa Frengky · Villa keluarga di Temas, Kota Batu</title>
-<meta name="description" content="Satu rumah utuh untuk keluarga di Temas, Kota Batu. 2 kamar tidur + 1 extra bed, muat 6 orang, dapur, air panas, carport. Mulai Rp500.000 per malam, booking langsung lewat WhatsApp.">
+<title>Villa Frengky Batu – Villa 2 Kamar dekat Jatim Park 2</title>
+<meta name="description" content="Sewa villa keluarga di Temas, Kota Batu: 2 kamar tidur + extra bed untuk 6 orang, dapur, air panas, carport. Mulai Rp500.000/malam, ±700 m dari Jatim Park 2.">
+<!-- Demo: hapus baris noindex di bawah saat website dipakai owner di domain asli -->
 <meta name="robots" content="noindex, nofollow">
-<meta property="og:title" content="Villa Frengky · Temas, Kota Batu">
-<meta property="og:description" content="Satu rumah utuh untuk 6 orang, 700 m dari Jatim Park 2. Mulai Rp500.000 per malam.">
-<meta property="og:image" content="img/depan-carport.webp">
+<link rel="canonical" href="https://villa-frengky.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="Villa Frengky">
+<meta property="og:url" content="https://villa-frengky.vercel.app/">
+<meta property="og:title" content="Villa Frengky Batu – Villa 2 Kamar dekat Jatim Park 2">
+<meta property="og:description" content="Satu rumah untuk 6 orang di Temas, Kota Batu, sekitar 700 m dari Jatim Park 2. Mulai Rp500.000 per malam, booking langsung lewat WhatsApp.">
+<meta property="og:image" content="https://villa-frengky.vercel.app/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Tampak depan Villa Frengky di Temas, Kota Batu">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1E2124">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231E2124'/%3E%3Cpath d='M11 24V8h11v3h-7.5v3.6H21v3h-6.5V24z' fill='%23C98A67'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preload" href="fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="img/depan-carport.webp">
+<link rel="preload" as="image" href="img/depan-carport.webp" imagesrcset="img/depan-carport-640.webp 640w, img/depan-carport-800.webp 800w, img/depan-carport-1200.webp 1200w, img/depan-carport.webp 1920w" imagesizes="100vw" fetchpriority="high">
 <style>
 /*
 VOICE   Quiet, confident property brochure: few words, big photographs, exact facts.
@@ -87,6 +98,7 @@ svg.i{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-widt
 .hero .label{opacity:.9;margin-bottom:22px;display:flex;align-items:center;gap:10px}
 .hero .label svg{width:16px;height:16px}
 .hero h1{margin-bottom:22px}
+.hero h1 .sub{display:block;font-size:28px;line-height:1.25;letter-spacing:0;margin-top:14px;color:#E8EAEC}
 .hero .lead{font-size:20px;line-height:1.5;max-width:40ch;color:#E8EAEC}
 .hero .pts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:28px 0 34px;list-style:none}
 .hero .pts li{display:flex;align-items:center;gap:10px}
@@ -154,7 +166,7 @@ svg.i{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-widt
 .sel .label{color:var(--muted)}
 .sel .v.set{font-weight:600}
 .calnav{display:flex;align-items:center;justify-content:space-between}
-.calnav h4{font-family:var(--display);font-weight:400;font-size:20px}
+.calnav .mn{font-family:var(--display);font-weight:400;font-size:20px}
 .ib{width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border-radius:var(--r-sm);transition:background-color .15s ease}
 .ib:hover{background:var(--stone)}
 .ib:active{transform:scale(.95)}
@@ -248,6 +260,7 @@ svg.i{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-widt
 .lb-stage .pv{left:16px}.lb-stage .nx{right:16px}
 .lb-stage .pv:hover,.lb-stage .nx:hover{background:rgba(255,255,255,.22)}
 body.lock{overflow:hidden}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 @media (max-width:1100px){
   h1{font-size:80px}
@@ -266,6 +279,7 @@ body.lock{overflow:hidden}
   .hero{min-height:92svh}
   .hero .wrap{padding-top:96px;padding-bottom:56px}
   .hero .lead{font-size:17px}
+  .hero h1 .sub{font-size:20px;margin-top:10px}
   .hero .pts{gap:8px 18px;margin:20px 0 26px;font-size:15px}
   .hero .price{margin:6px 0 0;width:100%}
   .hero .cta .btn{flex:1;padding:0 14px}
@@ -304,6 +318,23 @@ body.lock{overflow:hidden}
   html{scroll-behavior:auto}
 }
 </style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"LodgingBusiness","@id":"https://villa-frengky.vercel.app/#villa","name":"Villa Frengky","alternateName":"Villa Frengky Batu",
+"description":"Villa keluarga di Temas, Kota Batu, disewakan satu rumah: 2 kamar tidur dan 1 extra bed untuk 6 orang, dapur, air panas, dan carport. Sekitar 700 m dari Jatim Park 2.",
+"url":"https://villa-frengky.vercel.app/","image":["https://villa-frengky.vercel.app/og.jpg","https://villa-frengky.vercel.app/img/depan-carport.webp","https://villa-frengky.vercel.app/img/ruang-keluarga.webp","https://villa-frengky.vercel.app/img/dapur.webp","https://villa-frengky.vercel.app/img/kamar.webp"],
+"telephone":"+6281217482727","priceRange":"Rp500.000–Rp650.000 per malam","currenciesAccepted":"IDR",
+"address":{"@type":"PostalAddress","streetAddress":"Perumahan Fiorence Hills Regency B-17, Jl. Dewi Sartika Gg. 3H","addressLocality":"Kota Batu","addressRegion":"Jawa Timur","postalCode":"65315","addressCountry":"ID"},
+"geo":{"@type":"GeoCoordinates","latitude":-7.8862358,"longitude":112.5352731},
+"hasMap":"https://maps.google.com/?cid=10134791113031782603",
+"numberOfRooms":2,"petsAllowed":false,"checkinTime":"14:00","checkoutTime":"12:00",
+"amenityFeature":[{"@type":"LocationFeatureSpecification","name":"WiFi","value":true},{"@type":"LocationFeatureSpecification","name":"Air panas","value":true},{"@type":"LocationFeatureSpecification","name":"Dapur","value":true},{"@type":"LocationFeatureSpecification","name":"Kompor gas","value":true},{"@type":"LocationFeatureSpecification","name":"Kulkas","value":true},{"@type":"LocationFeatureSpecification","name":"TV","value":true},{"@type":"LocationFeatureSpecification","name":"Alat BBQ","value":true},{"@type":"LocationFeatureSpecification","name":"Parkir mobil","value":true},{"@type":"LocationFeatureSpecification","name":"Extra bed","value":true}],
+"containsPlace":{"@type":"Accommodation","name":"Satu rumah, 2 kamar tidur","numberOfRooms":2,"occupancy":{"@type":"QuantitativeValue","maxValue":6}},
+"makesOffer":[{"@type":"Offer","name":"Malam Minggu–Kamis","price":500000,"priceCurrency":"IDR"},{"@type":"Offer","name":"Malam Jumat & Sabtu","price":650000,"priceCurrency":"IDR"}]},
+{"@type":"WebSite","@id":"https://villa-frengky.vercel.app/#web","url":"https://villa-frengky.vercel.app/","name":"Villa Frengky","inLanguage":"id-ID","publisher":{"@id":"https://villa-frengky.vercel.app/#villa"}},
+{"@type":"FAQPage","@id":"https://villa-frengky.vercel.app/#faq","mainEntity":[{"@type": "Question", "name": "Berapa harga sewa Villa Frengky per malam?", "acceptedAnswer": {"@type": "Answer", "text": "Rp500.000 per malam untuk Minggu sampai Kamis, dan Rp650.000 untuk malam Jumat dan Sabtu. Harga untuk satu rumah, maksimal 6 orang termasuk extra bed."}},{"@type": "Question", "name": "Villa Frengky muat untuk berapa orang?", "acceptedAnswer": {"@type": "Answer", "text": "Maksimal 6 orang. Ada 2 kamar tidur dan 1 extra bed, dan Anda tidak berbagi rumah dengan tamu lain."}},{"@type": "Question", "name": "Berapa jarak Villa Frengky ke Jatim Park 2?", "acceptedAnswer": {"@type": "Answer", "text": "Sekitar 700 m. Jatim Park 1 sekitar 1 km, Batu Night Spectacular 1,4 km, dan Museum Angkut 1,8 km dari villa."}},{"@type": "Question", "name": "Bagaimana cara booking Villa Frengky?", "acceptedAnswer": {"@type": "Answer", "text": "Pilih tanggal dan jumlah tamu di kalender, lalu tekan Kirim ke WhatsApp. Pesannya sudah berisi tanggal dan total harga. Kami cek ketersediaan, lalu tanggal dikunci setelah DP masuk."}},{"@type": "Question", "name": "Apakah bisa masak sendiri di villa?", "acceptedAnswer": {"@type": "Answer", "text": "Bisa. Ada dapur dengan kompor gas dan kulkas, dan alat BBQ untuk dipakai di halaman belakang."}},{"@type": "Question", "name": "Ada tempat parkir mobil?", "acceptedAnswer": {"@type": "Answer", "text": "Ada carport di depan rumah untuk satu mobil. Kalau rombongan membawa lebih dari satu mobil, tanyakan dulu lewat WhatsApp."}},{"@type": "Question", "name": "Jam berapa check-in dan check-out?", "acceptedAnswer": {"@type": "Answer", "text": "Check-in mulai pukul 14.00 dan check-out sebelum pukul 12.00."}}]}
+]}
+</script>
 </head>
 <body>
 
@@ -357,11 +388,10 @@ body.lock{overflow:hidden}
 
 <main id="top">
   <section class="hero" aria-labelledby="h1">
-    <img src="img/depan-carport.webp" width="1920" height="1920" alt="Tampak depan Villa Frengky: rumah putih dua lantai dengan kanopi baja, taman depan, dan mobil di carport">
+    <img src="img/depan-carport.webp" srcset="img/depan-carport-640.webp 640w, img/depan-carport-800.webp 800w, img/depan-carport-1200.webp 1200w, img/depan-carport.webp 1920w" sizes="100vw" width="1920" height="1920" fetchpriority="high" alt="Tampak depan Villa Frengky di Temas, Kota Batu: rumah putih dengan kanopi baja, taman depan, dan carport">
     <div class="wrap hero-in">
-      <p class="label"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg>Temas · Kota Batu</p>
-      <h1 id="h1">Villa Frengky</h1>
-      <p class="lead">Satu rumah utuh untuk keluarga Anda di perumahan yang tenang, <span data-assumed>sekitar 700 m dari Jatim Park 2</span>.</p>
+      <h1 id="h1">Villa Frengky <span class="sub">Villa keluarga di Temas, Kota Batu</span></h1>
+      <p class="lead">Sewa satu rumah utuh untuk rombongan Anda di perumahan yang tenang, <span data-assumed>sekitar 700 m dari Jatim Park 2</span>.</p>
       <ul class="pts">
         <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>2 kamar tidur + extra bed</li>
         <li><svg class="i" aria-hidden="true"><use href="#i-check"/></svg>Muat 6 orang</li>
@@ -396,13 +426,14 @@ body.lock{overflow:hidden}
     </div>
   </section>
 
-  <section class="gallery" id="galeri" aria-label="Galeri foto">
+  <section class="gallery" id="galeri" aria-labelledby="galH">
     <div class="wrap">
+      <h2 id="galH" class="sr-only">Foto Villa Frengky</h2>
       <div class="ggrid">
-        <a class="g1" href="img/ruang-keluarga.webp" data-lb="0"><img src="img/ruang-keluarga.webp" loading="lazy" width="1109" height="2400" alt="Ruang keluarga berplafon tinggi dengan sofa dan jendela besar" style="object-position:50% 70%"></a>
-        <a class="g2" href="img/dapur.webp" data-lb="1"><img src="img/dapur.webp" loading="lazy" width="1600" height="1281" alt="Dapur dengan kompor gas dua tungku"></a>
-        <a class="g4" href="img/taman-belakang.webp" data-lb="3"><img src="img/taman-belakang.webp" loading="lazy" width="1109" height="2400" alt="Halaman belakang berumput dengan atap transparan" style="object-position:40% 70%"></a>
-        <a class="g5" href="img/kamar.webp" data-lb="2"><img src="img/kamar.webp" loading="lazy" width="1600" height="1582" alt="Kamar tidur dengan jendela besar bertirai" style="object-position:50% 62%"></a>
+        <a class="g1" href="img/ruang-keluarga.webp" data-lb="0"><img src="img/ruang-keluarga.webp" srcset="img/ruang-keluarga-600.webp 600w, img/ruang-keluarga.webp 1109w" sizes="(max-width:899px) 100vw, 42vw" loading="lazy" decoding="async" width="1109" height="2400" alt="Ruang keluarga Villa Frengky berplafon tinggi dengan sofa dan jendela besar" style="object-position:50% 70%"></a>
+        <a class="g2" href="img/dapur.webp" data-lb="1"><img src="img/dapur.webp" srcset="img/dapur-800.webp 800w, img/dapur.webp 1600w" sizes="(max-width:899px) 50vw, 34vw" loading="lazy" decoding="async" width="1600" height="1281" alt="Dapur Villa Frengky dengan kompor gas dua tungku"></a>
+        <a class="g4" href="img/taman-belakang.webp" data-lb="3"><img src="img/taman-belakang.webp" srcset="img/taman-belakang-600.webp 600w, img/taman-belakang.webp 1109w" sizes="(max-width:899px) 50vw, 25vw" loading="lazy" decoding="async" width="1109" height="2400" alt="Halaman belakang berumput untuk BBQ dengan atap transparan" style="object-position:40% 70%"></a>
+        <a class="g5" href="img/kamar.webp" data-lb="2"><img src="img/kamar.webp" srcset="img/kamar-800.webp 800w, img/kamar.webp 1600w" sizes="(max-width:899px) 100vw, 34vw" loading="lazy" decoding="async" width="1600" height="1582" alt="Kamar tidur Villa Frengky dengan jendela besar bertirai" style="object-position:50% 62%"></a>
       </div>
       <div class="gfoot">
         <p class="muted small">Foto asli Villa Frengky.</p>
@@ -414,7 +445,8 @@ body.lock{overflow:hidden}
   <section class="unit" id="unit" aria-labelledby="unitH">
     <div class="wrap">
       <div>
-        <h2 id="unitH">Satu rumah, dua kamar tidur</h2>
+        <h2 id="unitH">Villa 2 kamar di Batu untuk 6 orang</h2>
+        <p class="muted" style="max-width:56ch;margin:-8px 0 26px">Villa Frengky adalah rumah minimalis di Perumahan Fiorence Hills, Temas. Cocok untuk keluarga atau rombongan kecil yang mau liburan ke Jatim Park dan alun-alun Batu dengan budget hemat, karena harganya dihitung per rumah, bukan per orang.</p>
         <div class="facts">
           <span><svg class="i" aria-hidden="true"><use href="#i-users"/></svg>6 tamu</span>
           <span><svg class="i" aria-hidden="true"><use href="#i-bed"/></svg>2 kamar tidur</span>
@@ -430,7 +462,7 @@ body.lock{overflow:hidden}
           <li><svg class="i" aria-hidden="true"><use href="#i-flame"/></svg>Alat BBQ</li>
         </ul>
         <div class="board">
-          <p class="label muted" style="margin-bottom:12px">Harga per malam, satu rumah</p>
+          <p class="label muted" style="margin-bottom:12px">Harga sewa per malam, satu rumah</p>
           <p class="display">Rp500.000 <span>Minggu–Kamis</span><br>Rp650.000 <span>Jumat &amp; Sabtu</span></p>
         </div>
         <p class="rules" data-assumed>Check-in mulai pukul 14.00, check-out sebelum 12.00. Hewan peliharaan tidak diperkenankan. Tanggal dikunci setelah DP lewat transfer.</p>
@@ -444,11 +476,11 @@ body.lock{overflow:hidden}
         </div>
         <div class="calnav">
           <button class="ib" id="prev" aria-label="Bulan sebelumnya"><svg class="i"><use href="#i-left"/></svg></button>
-          <h4 id="monthName" aria-live="polite"></h4>
+          <div class="mn" id="monthName" aria-live="polite"></div>
           <button class="ib" id="next" aria-label="Bulan berikutnya"><svg class="i"><use href="#i-right"/></svg></button>
         </div>
         <div class="dow"><span>Min</span><span>Sen</span><span>Sel</span><span>Rab</span><span>Kam</span><span>Jum</span><span>Sab</span></div>
-        <div class="days" id="days" role="grid" aria-labelledby="monthName"></div>
+        <div class="days" id="days" aria-label="Tanggal"></div>
         <div class="legend"><span><b>500</b> Minggu–Kamis</span><span><b class="c">650</b> Jumat &amp; Sabtu (ribu rupiah)</span></div>
         <div class="guests" id="guestsRow">
           <div><div style="font-weight:600">Tamu</div><div class="small muted">Maksimal 6 orang</div></div>
@@ -469,7 +501,7 @@ body.lock{overflow:hidden}
     <div class="wrap">
       <div>
         <p class="label">Lokasi</p>
-        <h2 id="locH">Di tengah kawasan wisata Batu</h2>
+        <h2 id="locH">Dekat Jatim Park 2 dan pusat wisata Batu</h2>
         <p>Perumahan Fiorence Hills, Jl. Dewi Sartika, Temas, Kota Batu.</p>
         <p data-assumed>Villa ada di dalam gang perumahan yang tenang. Mobil bisa masuk sampai carport depan rumah.</p>
         <a class="btn btn-ghost" href="https://maps.google.com/?cid=10134791113031782603" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg>Buka di Google Maps</a>
@@ -489,18 +521,21 @@ body.lock{overflow:hidden}
 
   <section class="faq" id="tanya" aria-labelledby="faqH">
     <div class="wrap">
-      <h2 id="faqH">Tanya jawab</h2>
+      <h2 id="faqH">Tanya jawab seputar Villa Frengky</h2>
       <div>
-        <details><summary>Harganya untuk berapa orang?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Harga sudah untuk satu rumah, maksimal 6 orang termasuk extra bed. Anda tidak berbagi rumah dengan tamu lain.</p></details>
-        <details><summary>Bagaimana cara booking?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Pilih tanggal dan jumlah tamu di kalender, lalu tekan Kirim ke WhatsApp. Pesannya sudah berisi tanggal dan total harga. Kami cek ketersediaan, lalu tanggal dikunci setelah DP masuk.</p></details>
-        <details><summary>Apakah bisa masak sendiri?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Bisa. Ada dapur dengan kompor gas dan kulkas, dan alat BBQ untuk dipakai di halaman belakang.</p></details>
+        <details><summary>Berapa harga sewa Villa Frengky per malam?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Rp500.000 per malam untuk Minggu sampai Kamis, dan Rp650.000 untuk malam Jumat dan Sabtu. Harga untuk satu rumah, maksimal 6 orang termasuk extra bed.</p></details>
+        <details><summary>Villa Frengky muat untuk berapa orang?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Maksimal 6 orang. Ada 2 kamar tidur dan 1 extra bed, dan Anda tidak berbagi rumah dengan tamu lain.</p></details>
+        <details><summary>Berapa jarak Villa Frengky ke Jatim Park 2?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p data-assumed>Sekitar 700 m. Jatim Park 1 sekitar 1 km, Batu Night Spectacular 1,4 km, dan Museum Angkut 1,8 km dari villa.</p></details>
+        <details><summary>Bagaimana cara booking Villa Frengky?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Pilih tanggal dan jumlah tamu di kalender, lalu tekan Kirim ke WhatsApp. Pesannya sudah berisi tanggal dan total harga. Kami cek ketersediaan, lalu tanggal dikunci setelah DP masuk.</p></details>
+        <details><summary>Apakah bisa masak sendiri di villa?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p>Bisa. Ada dapur dengan kompor gas dan kulkas, dan alat BBQ untuk dipakai di halaman belakang.</p></details>
         <details><summary>Ada tempat parkir mobil?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p data-assumed>Ada carport di depan rumah untuk satu mobil. Kalau rombongan membawa lebih dari satu mobil, tanyakan dulu lewat WhatsApp.</p></details>
+        <details><summary>Jam berapa check-in dan check-out?<svg class="i" aria-hidden="true"><use href="#i-down"/></svg></summary><p data-assumed>Check-in mulai pukul 14.00 dan check-out sebelum pukul 12.00.</p></details>
       </div>
     </div>
   </section>
 
   <section class="close" aria-labelledby="closeH">
-    <img src="img/depan-taman.webp" loading="lazy" width="1800" height="1800" alt="Teras depan Villa Frengky dengan taman">
+    <img src="img/depan-taman.webp" srcset="img/depan-taman-800.webp 800w, img/depan-taman-1200.webp 1200w, img/depan-taman.webp 1800w" sizes="100vw" loading="lazy" decoding="async" width="1800" height="1800" alt="Teras depan Villa Frengky dengan taman">
     <div class="wrap">
       <h2 id="closeH">Cek tanggal kosong di Villa Frengky</h2>
       <p>Pilih tanggal, lihat totalnya, lalu kirim ke WhatsApp kami. Kami balas dengan konfirmasi ketersediaan.</p>
@@ -514,10 +549,11 @@ body.lock{overflow:hidden}
 
 <footer class="foot">
   <div class="wrap">
-    <div>
+    <address style="font-style:normal">
       <span class="mark">Villa Frengky</span>
-      Perumahan Fiorence Hills, Temas, Kota Batu · WhatsApp <span class="nowrap">0812-1748-2727</span>
-    </div>
+      <span data-assumed>Perumahan Fiorence Hills Regency B-17, Jl. Dewi Sartika Gg. 3H, Temas, Kota Batu, Jawa Timur 65315</span><br>
+      WhatsApp <a href="https://wa.me/6281217482727" class="nowrap">0812-1748-2727</a> · <a href="https://maps.google.com/?cid=10134791113031782603" target="_blank" rel="noopener">Google Maps</a>
+    </address>
     <div>Contoh tampilan website oleh Lamanara. Foto milik Villa Frengky.</div>
   </div>
 </footer>
